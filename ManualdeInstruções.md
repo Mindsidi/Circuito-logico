@@ -4,7 +4,7 @@ Caso queira um exemplo de circuito logico, você pode utilizar o que estar nessa
 ![](https://i.ytimg.com/vi/B7uSZmXu94I/maxresdefault.jpg)
 
 Primeiramente, para baixar o arquivo, clique em "clone or download" no github. Após baixar o arquivo, extraia para uma pasta qualquer em seu computador. ![](https://cloud.addictivetips.com/wp-content/uploads/2016/08/github-plus.jpg)
-Crie um arquivo no bloco de notas ".txt", nesse arquivo você colocará o circuito lógico que pretende resolver, é importante lembrar que as letras precisam estar em caixa alta.
+Crie um arquivo no bloco de notas ".txt", nesse arquivo você colocará o circuito lógico que pretende resolver, é importante lembrar que as letras precisam estar em caixa alta, as barras"\" do endereço do arquivo devem ser trocadas por contra-barras"/", caso não saiba onde ´o lacal do arquivo, clique com o botão direito nele, propriedades, nela estará uma caixa com o seu endereço.
 Após realizar a abertura do arquivo, verá um arquivo.txt chamado "solucionado" e nele estará o código que deve se fazer a cópia para qualquer decompilador que funcione em C, sugiro o Qt Creator, o donwload dele pode ser realizado no site: https://www.qt.io/download-open-source?hsCtaTracking=9f6a2170-a938-42df-a8e2-a9f0b1d6cdce%7C6cb0de4f-9bb5-4778-ab02-bfb62735f3e5
 
 
