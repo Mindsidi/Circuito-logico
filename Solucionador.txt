@@ -133,12 +133,14 @@ int main(void){
   char name[100]="circuit.txt", h[40];
   printf("Insira o local que o arquivo contendo o circuito logico esta: ");
   scanf("%s", name);
-  char bola[40];
+  char leu[40];
     FILE* arqNome=fopen(name, "r");
     while(feof(arqNome) == 0){
-      fgets(bola,40,arqNome);
+      fgets(leu,40,arqNome);
+      int tamanho=strlen(leu)-1;
+      leu==tamanho;
       if(feof(arqNome) == 0){
-        printf("%s", bola);
+        printf("%s", leu);
         //printf("\n");
       }
     }
@@ -193,7 +195,7 @@ int main(void){
   poss=(pow(2, ninp))-1;
   //verificar(ninp, nout, ngate);
   puts(name);
-  printf("----------------------\nEntradas  |   | Saidas\n----------------------\n");
+  printf("----------------------\nInput  |        | Output\n----------------------\n");
   for(i=0;i<ninp;i++){
     printf("%s | ", input[i].letter);
   }
@@ -207,11 +209,11 @@ int main(void){
     clncables();
     for(i=0;i<ninp;i++){
       input[i].state=IN[i];
-      printf("%d | ", IN[i]);
+      printf("%d || ", IN[i]);
     }
     printf("  ");
     for(i=0;i<nout;i++){
-      printf("| %d ", calculate(output[i].input));
+      printf("=> %d ", calculate(output[i].input));
     }
     printf("\n");
   }
