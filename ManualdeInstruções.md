@@ -1,7 +1,19 @@
 # MANUAL
 
-Caso queira um exemplo de circuito logico, você pode utilizar o que estar nessa imagem:
-![](https://i.ytimg.com/vi/B7uSZmXu94I/maxresdefault.jpg)
+Caso queira um exemplo de circuito logico, você pode utilizar esse:
+CIRCUIT Expressao logica
+NOT 1 4
+AND 2 3 8
+NOR 4 8 7
+AND 1 7 5
+AND 2 5 6
+INPUT 1 A
+INPUT 2 B
+INPUT 3 C
+OUTPUT 6 S
+
+Todas as saídas serem iguais a 0, com excessão da 1 1 0, que será igual a 1.
+
 
 Primeiramente, para baixar o arquivo, clique em "clone or download" no github. Após baixar o arquivo, extraia para uma pasta qualquer em seu computador. ![](https://cloud.addictivetips.com/wp-content/uploads/2016/08/github-plus.jpg)
 Crie um arquivo no bloco de notas ".txt", nesse arquivo você colocará o circuito lógico que pretende resolver, é importante lembrar que as letras precisam estar em caixa alta, as barras"\" do endereço do arquivo devem ser trocadas por contra-barras"/", caso não saiba onde o lacal do arquivo, clique com o botão direito nele, propriedades, nela estará uma caixa com o seu endereço, ao colocar o nome do arquivo, escreva sua estensão, exemplo:C:/Users/G/Desktop/circuito.txt.
