@@ -2,15 +2,25 @@
 
 Caso queira um exemplo de circuito logico, você pode utilizar esse:
 CIRCUIT Expressao logica
+
 NOT 1 4
+
 AND 2 3 8
+
 NOR 4 8 7
+
 AND 1 7 5
+
 AND 2 5 6
+
 INPUT 1 A
+
 INPUT 2 B
+
 INPUT 3 C
+
 OUTPUT 6 S
+
 
 Todas as saídas serem iguais a 0, com excessão da 1 1 0, que será igual a 1.
 
