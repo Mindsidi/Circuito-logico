@@ -131,7 +131,7 @@ void verificar(int ninp, int nout, int ngate){
 int main(void){
   int i, k, ninp, nout, ngate, poss;
   char name[100]="circuit.txt", h[40];
-  printf("Por obsequio, insira o caminho para o arquivo de texto: ");
+  printf("Insira o local que o arquivo contendo o circuito logico esta: ");
   scanf("%s", name);
   char bola[40];
     FILE* arqNome=fopen(name, "r");
@@ -193,7 +193,7 @@ int main(void){
   poss=(pow(2, ninp))-1;
   //verificar(ninp, nout, ngate);
   puts(name);
-  printf("----------------------\nEntradas  |   | Saídas\n----------------------\n");
+  printf("----------------------\nEntradas  |   | Saidas\n----------------------\n");
   for(i=0;i<ninp;i++){
     printf("%s | ", input[i].letter);
   }
